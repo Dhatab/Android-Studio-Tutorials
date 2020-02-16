@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="com.example.user.recyclerviewtutorial.MainActivity">
+
+    <TextView
+        android:id="@+id/newtextViewHead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="5dp"
+        android:layout_toEndOf="@+id/imageView2"
+        android:text="Heading"
+        android:textColor="@android:color/black"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="17dp"
+        android:text="Create ALERT" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="45dp"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/TFHour2"
+        android:layout_alignParentStart="true"
+        app:srcCompat="@mipmap/ic_launcher_round" />
+
+    <TextView
+        android:id="@+id/Symbol2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/newtextViewHead"
+        android:layout_below="@+id/newtextViewHead"
+        android:text="Symbol"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/Price2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/newtextViewHead"
+        android:layout_alignBottom="@+id/newtextViewHead"
+        android:layout_alignParentEnd="true"
+        android:text="Price"
+        android:textColor="@android:color/black"
+        android:textSize="35dp" />
+
+    <TextView
+        android:id="@+id/Hour2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/Price2"
+        android:text="1 hours"
+        android:textColor="@android:color/black"/>
+
+
+    <TextView
+        android:id="@+id/TFHour2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/Hour2"
+        android:text="24 Hours"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:id="@+id/Seven2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/TFHour2"
+        android:text="7 Days"
+        android:textColor="@android:color/black" />
+
+
+
+
+    <ImageView
+        android:id="@+id/graphimg"
+        android:layout_width="1000dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/Seven2"
+        android:layout_above="@id/button"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:background="#00000000" />
+
+</RelativeLayout>

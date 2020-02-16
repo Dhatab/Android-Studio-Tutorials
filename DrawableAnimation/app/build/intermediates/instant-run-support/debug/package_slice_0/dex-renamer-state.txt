@@ -1,0 +1,4 @@
+#Sun Jul 01 19:41:59 EDT 2018
+base.0=C\:\\Users\\User\\AndroidStudioProjects\\DrawableAnimation\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.iconswitch.MainActivity">
+
+    <com.polyak.iconswitch.IconSwitch
+        android:id="@+id/icon_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        app:isw_default_selection="right"
+        app:isw_icon_left="@drawable/ic_pause"
+        app:isw_icon_right="@drawable/ic_play_arrow_black_24dp"
+        app:isw_icon_size="25dp" />
+
+</RelativeLayout>
